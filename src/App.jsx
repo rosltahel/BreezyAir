@@ -8,14 +8,16 @@ import AboutFAQ from './pages/AboutFAQ.jsx';
 
 function App() {
   return (
-    <Router base={import.meta.env.BASE_URL.replace(/\/$/, '')}>
+    <Router>
       <div style={{ minHeight: '100dvh', display: 'flex', flexDirection: 'column' }}>
         <Navbar />
+
         <main style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
           <Switch>
             <Route path="/" component={Home} />
             <Route path="/pricing" component={Pricing} />
             <Route path="/about" component={AboutFAQ} />
+
             <Route>
               <div className="not-found">
                 <h1>404 — Page Not Found</h1>
@@ -25,8 +27,10 @@ function App() {
             </Route>
           </Switch>
         </main>
+
         <Footer />
       </div>
+
       <Toaster position="bottom-right" theme="dark" />
     </Router>
   );
