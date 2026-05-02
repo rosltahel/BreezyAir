@@ -167,9 +167,15 @@ Here are examples of AI prompts and outputs that helped shape this project:
 
 ## 🖼️ Project Screenshots
 
-![Homepage](./screenshots/home.png)
-![Pricing](./screenshots/pricing.png)
-![FAQ](./screenshots/faq.png)
+#Home
+<img width="2536" height="1344" alt="image" src="https://github.com/user-attachments/assets/df0cd091-81af-447c-a7f2-5e5df7c717de" />
+
+#Pricing
+<img width="2543" height="1342" alt="image" src="https://github.com/user-attachments/assets/dcaad0c0-81e5-46ea-8896-55a0bac1f0d6" />
+
+#About/FAQ
+<img width="2541" height="1336" alt="image" src="https://github.com/user-attachments/assets/866a41f6-f7b6-4e05-8bbd-ac94eee9baf0" />
+
 
 ---
 
