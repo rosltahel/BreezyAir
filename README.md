@@ -156,9 +156,12 @@ I used structured prompts to guide implementation, focusing on UI improvements, 
 
 Here are examples of AI prompts and outputs that helped shape this project:
 
+
+<img width="841" height="992" alt="image" src="https://github.com/user-attachments/assets/c5923947-5401-48ff-85be-d37a4597e5cb" />
+
 <img width="879" height="1057" alt="image" src="https://github.com/user-attachments/assets/49169da5-6325-43cf-9514-fe24a29bd4df" />
 
-![AI Prompt Example 2](./screenshots/prompt2.png)
+
 
 ---
 
