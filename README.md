@@ -1,16 +1,14 @@
-# React + Vite
+# BreezyAir
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BreezyAir is a multi-page React website for a fictional premium “artisanal air” product. The site includes a homepage, pricing page, and FAQ/About page, with interactive UI elements designed to improve user engagement and encourage conversions.
 
-Currently, two official plugins are available:
+## 1. Hosting
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I deployed the project on **Hostinger** using its File Manager and `public_html` hosting directory.
 
-## React Compiler
+I chose Hostinger because it is simple, affordable, and easy to use for a static frontend website. Since this project is built with React and Vite, the final production files are generated into the `dist` folder and can be uploaded directly to Hostinger without needing a backend server.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+For deployment, I ran:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm run build
