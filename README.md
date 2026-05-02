@@ -1,4 +1,17 @@
-## README Questions
+# BreezyAir 🌬️
+
+A multi-page React website for a fictional premium “artisanal air” product.  
+Designed with a strong focus on UX, conversion, and modern frontend practices.
+
+---
+
+## 🔗 Live Demo
+
+👉 https://rosltahel.com
+
+---
+
+## 🧠 README Questions
 
 ### 1. Hosting
 
@@ -24,7 +37,7 @@ Currently, all content (text, pricing, FAQ, features) is stored directly in the 
 For a non-technical marketing user, this setup is not ideal because it requires editing code.
 
 To improve this, I would:
-- Move content into a **headless CMS** (e.g., Sanity, Contentful, Strapi)
+- Move content into a **headless CMS** (WordPress, Sanity, Contentful)
 - Allow marketing users to update content through a UI dashboard
 - Fetch content dynamically in the frontend
 
@@ -42,7 +55,7 @@ Current considerations:
 - Forms are frontend-only (no sensitive data is stored)
 
 For a production deployment, I would add:
-- HTTPS enforcement
+
 - Input validation for all forms
 - Spam protection (e.g., reCAPTCHA)
 - Backend validation for real data submission
@@ -126,4 +139,51 @@ Users often hesitate before buying due to unanswered questions. This feature hel
 - Add a real AI assistant using a backend API
 - Integrate analytics to understand user behavior
 
-This feature adds real value without introducing unnecessary backend complexity.
+---
+
+## 🤖 AI-Assisted Development
+
+This project was partially built using AI-assisted development.  
+I used structured prompts to guide implementation, focusing on UI improvements, UX decisions, and clean architecture.
+
+### Example Prompt
+
+> "Add subtle animations to the hero section that represent airflow and freshness, without redesigning the page or adding new dependencies. Keep changes minimal and explain what was modified."
+
+---
+
+## 📸 AI Prompt Transcripts
+
+Here are examples of AI prompts and outputs that helped shape this project:
+
+![AI Prompt Example 1](./screenshots/prompt1.png)
+![AI Prompt Example 2](./screenshots/prompt2.png)
+
+---
+
+## 🖼️ Project Screenshots
+
+![Homepage](./screenshots/home.png)
+![Pricing](./screenshots/pricing.png)
+![FAQ](./screenshots/faq.png)
+
+---
+
+## ✨ Key Highlights
+
+- Modern React + Vite architecture
+- Multi-page routing with Wouter
+- Conversion-focused UI design
+- Interactive FAQ search
+- Subtle animations aligned with product concept
+- Fully deployed production app
+
+---
+
+## 🚀 Future Improvements
+
+- Add backend (FastAPI / Node.js)
+- Integrate real AI assistant
+- Connect to CMS
+- Add authentication and user personalization
+- Improve analytics and tracking
